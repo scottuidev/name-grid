@@ -31,11 +31,11 @@ public class NameCubeFinder {
     }
 
     private SortedSet<String> clean(List<String> names, int length) {
-        // to lower case
+        // filter strings to the length and change to lower case
         List<String> namesLowercase = names.stream()
                 .parallel()
-                .map(String::toLowerCase)
                 .filter(str -> (str.length() == length))
+                .map(String::toLowerCase)
                 .collect(Collectors.toList());
         // dedup
         SortedSet<String> deduped = new TreeSet<>(namesLowercase);
