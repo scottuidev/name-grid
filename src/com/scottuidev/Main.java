@@ -21,15 +21,12 @@ public class Main {
             e.printStackTrace();
         }
 
-
     }
 
     private List<String> readFile() throws IOException {
-
         String fileName = "names.txt";
         Path path = Paths.get(fileName);
         List<String> allLines = Files.readAllLines(path, StandardCharsets.UTF_8);
         return allLines;
-
     }
 }
