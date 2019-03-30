@@ -19,7 +19,7 @@ public class Main {
         try {
             Main main = new Main();
             List<String> names = main.readFile();
-            main.runNameGridFinder(names, 5);
+            main.runNameGridFinder(names, length);
         } catch (Exception e) {
             System.out.println("things went bad: " +  e.getMessage());
             e.printStackTrace();

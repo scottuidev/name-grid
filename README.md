@@ -8,7 +8,7 @@ each other, form a "word square" such that the names are spelled vertically and 
 This is the output of the code with the current input file.
 
 ```
-Start Sat Mar 30 15:53:06 MDT 2019
+Start Sat Mar 30 16:37:36 MDT 2019
 Unique names: 572
 
 abram
@@ -197,7 +197,7 @@ hazel
 irene
 riley
 
-End Sat Mar 30 15:53:06 MDT 2019
+End Sat Mar 30 16:37:36 MDT 2019
 Count: 31
-Total run time: 528
+Total run time: 532
 ```
